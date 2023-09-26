@@ -21,10 +21,20 @@ pipeline {
                 script{
                     git credentialsId:'github',
                     url:'https://github.com/Vamc-admin/agrocd_app.git',
-                    branch:'main'
+                    branch:'master'
                 }
             }
 
+        }
+
+        stage('Build docker image'){
+
+            steps{
+                script{
+
+                    docker_image = docker.build "${IMAGE_NAME}"
+                }
+            }
         }
     }
 }
