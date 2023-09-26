@@ -61,9 +61,9 @@ pipeline {
             }
         }
 
-        stage('updating k8s deployment file'){
+        stage('updating kubernetes deployment file'){
 
-            stpes{
+            steps{
                 script{
 
                     sh """
