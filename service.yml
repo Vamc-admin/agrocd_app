@@ -1,4 +1,4 @@
-apiVersion: latest
+apiVersion: Latest
 kind: Service
 metadata:
   name: flask-app-svc
