@@ -1,4 +1,4 @@
-apiVersion: apps/latest
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flask-app-deploy
@@ -13,7 +13,7 @@ spec:
       spec:
       containers:
         name: flask-app-container
-        image:  vamc470/agrocd_app:latest
+        image:  vamc470/agrocd_app:v1
         resources:
           limits:
             memory: "128Mi"
