@@ -8,7 +8,7 @@
     },
     "jenkins-runner.hostConfigs": {
         "jenkins-master": {
-            "url": "http://65.2.38.167:8080/",
+            "url": "http://13.126.188.113:8080/",
             "user": "vamshi",
             "password": "Amazon@470",
             "useCrumbIssuer": true,
