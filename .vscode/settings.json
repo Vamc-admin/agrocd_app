@@ -12,5 +12,21 @@
                 "HOST_NAME": "vamshi"
             }
         }
+    },
+    "jenkins-runner.hostConfigs": {
+        "jenkins-master": {
+            "url": "http://13.126.188.113:8080",
+            "user": "vamshi",
+            "password": "Amazon@470",
+            "useCrumbIssuer": true,
+            "rejectUnauthorizedCert": false
+        },
+        "host-prompt-for-password": {
+            "url": "http://13.126.188.113:8080",
+            "user": "vamshi"
+        },
+        "host-no-password": {
+            "url": "http://13.126.188.113:8080"
+        }
     }
 }
