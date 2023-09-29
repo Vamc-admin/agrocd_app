@@ -3,30 +3,15 @@
         "agrocd_project": {
             "isDefault": true,
             "runWith": "jenkins-master",
-            "name": "agrocd_project",
-            "parameters": {
-                "first": 1,
-                "second": "2nd"
-            },
-            "environment": {
-                "HOST_NAME": "vamshi"
-            }
+            "name": "agrocd_project"
         }
     },
     "jenkins-runner.hostConfigs": {
         "jenkins-master": {
-            "url": "13.126.187.49:8080",
+            "url": "http://13.126.187.49:8080",
             "user": "vamshi",
             "password": "Amazon@470",
-            "useCrumbIssuer": true,
-            "rejectUnauthorizedCert": false
-        },
-        "host-prompt-for-password": {
-            "url": "13.126.187.49:8080",
-            "user": "vamshi"
-        },
-        "host-no-password": {
-            "url": "13.126.187.49:8080"
+            "useCrumbIssuer": true
         }
     }
 }
